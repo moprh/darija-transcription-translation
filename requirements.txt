@@ -1,0 +1,26 @@
+# --- Core ML / NLP ---
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.30.0
+evaluate>=0.4.2
+sentencepiece>=0.2.0
+sacrebleu>=2.4.0
+jiwer>=3.0.0          # pour le calcul du WER (ASR)
+
+# --- Audio ---
+librosa>=0.10.1
+soundfile>=0.12.1
+
+# --- Data wrangling ---
+pandas>=2.2.0
+numpy>=1.26.0
+
+# --- API / backend ---
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# --- Notebooks ---
+jupyter>=1.0.0
+matplotlib>=3.8.0
+tqdm>=4.66.0

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environnements virtuels
+venv/
+env/
+.venv/
+
+# Donnees volumineuses (a garder sur Drive/Colab, pas sur GitHub)
+data/raw/
+data/processed/*.csv
+*.wav
+*.mp3
+
+# Modeles entraines (trop volumineux pour GitHub, garder sur Drive ou HF Hub)
+models/*/
+!models/.gitkeep
+
+# OS / editeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
